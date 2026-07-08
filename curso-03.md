@@ -1,4 +1,4 @@
-# DEFININDO COMPONENTES
+# CRIANDO COMPONENTES
 - Componentes sao trechos de codigo para sem reutilizados sem reescrita de toda sua configuracao 
 - O componente nada mais é do que uma funcao que começa com a letra maiuscula " function MinhaDiv( ) "
 ```
@@ -26,4 +26,28 @@ function FotoPerfil( ){
         > 
 ```
 ----
+
+# UTILIZANDO COMPONENTES 
+
+Depois que um componente foi declarado por meio de uma funcao, basta chama-lo como uma tag HTML
+
+Criando:
+```
+function FotoPerfil ( ) {
+    return ....
+}
+```
+Utilizando:
+```
+export default function App ( ) {
+    return (
+        <div>
+            <FotoPerfil/>
+            <p>
+                Bem Vindo
+            <p/>
+        <div>
+    )
+}
+```
 
