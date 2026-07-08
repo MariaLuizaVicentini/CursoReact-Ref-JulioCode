@@ -1,14 +1,8 @@
-import { useState } from "react";
-
-function App() {
-  const [count, setCount] = useState(0);
-
+function App(){
+  let nome = prompt("Digita seu nome ai noia")
   return (
-    <>
-      <h1>Titutlo da pagina</h1>
-      <p>Subtitulo da pagina</p>
-    </>
-  );
+    <h1>{nome}</h1>
+  )
 }
 
-export default App;
+export default App
