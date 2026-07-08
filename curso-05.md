@@ -38,3 +38,23 @@ function App(){
 export default App
 ```
 
+---
+# HIERARQUIA DO HTML
+
+- React segue a mesma estrutura do HTML
+
+```
+| avo - <html>
+    pai - <body>
+        filho - <header>
+        filho - <main>
+        filho - <footer>
+
+```
+
+---
+
+# DICA
+
+- Extensao do VScode chamada "Dracula"
+    - Ajuda a diferenciar o HTML do que é componente proprio da sua app

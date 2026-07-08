@@ -1,8 +1,19 @@
+import Header from "./Header"
+import Conteudo from "./Conteudo"
+
 function App(){
-  let nome = prompt("Digita seu nome ai noia")
   return (
-    <h1>{nome}</h1>
+    <>
+      <Header/>
+      <Conteudo/>
+      <footer>
+          <p>
+            Feito por seu_nome
+          </p>
+      </footer>
+    </>
   )
 }
+
 
 export default App
