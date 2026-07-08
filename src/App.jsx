@@ -1,6 +1,7 @@
 function App(){
+  let nome = prompt("Digita seu nome ai noia")
   return (
-    <h1>Magic React</h1>
+    <h1>{nome}</h1>
   )
 }
 

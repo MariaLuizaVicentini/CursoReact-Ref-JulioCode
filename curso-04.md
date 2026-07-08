@@ -9,12 +9,44 @@
 Coisas ESTATICAS
 - Nao mudam ao longo do tempo 
 - Permanecem "paradas"
+EX - React:
+```
+function App(){
+    let texto = "Texto que deve ser exibido no botao"
+
+    return(
+        <button>
+            texto
+        <button/>
+    )
+}
+```
+EX - Tela do user
+```
+button ------> |   texto    |
+```
 
 Coisas DINAMICAS
 - Podem mudar ao longo do tempo
 - Dependem de fatores externos
+EX - React:
+```
+function App(){
+    let texto = "Texto que deve ser exibido no botao"
+
+    return(
+        <button>
+            {texto}
+        <button/>
+    )
+}
+```
+EX - Tela do user
+```
+button ------> |   Texto que deve ser exibido no botao    |
+```
 
 No HTML:
     - Tudo era estatico
 No REACT:
-    - Temos valores dinamicos, JS tras isso pro HTML
+    - Temos valores dinamicos, o JS é o principal responsavel pela dinamicidade
