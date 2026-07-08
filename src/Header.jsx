@@ -1,9 +1,11 @@
 import React from "react"
+import "./Header.css"
 
 function Header(){
   return(
-    <header>
-      <ul>
+    <header className="header">
+      <h1>Seu_nome </h1>
+      <ul className="links">
         <li>
           <a href="https://google.com">
             Google 
