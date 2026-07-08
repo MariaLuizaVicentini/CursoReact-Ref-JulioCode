@@ -1,14 +1,7 @@
-import { useState } from "react";
-
-function App() {
-  const [count, setCount] = useState(0);
-
+function App(){
   return (
-    <>
-      <h1>Titutlo da pagina</h1>
-      <p>Subtitulo da pagina</p>
-    </>
-  );
+    <h1>Magic React</h1>
+  )
 }
 
-export default App;
+export default App
