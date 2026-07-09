@@ -1,5 +1,6 @@
-import Header from "./Header"
-import Conteudo from "./Conteudo"
+import Conteudo from "./components/Conteudo/Conteudo"
+import Header from "./components/Header/Header"
+import Projetos from "./components/Projetos/Projetos"
 import "./App.css"
 
 function App(){
@@ -7,13 +8,12 @@ function App(){
     <div className="conteudo-principal">
       <Header/>
       <Conteudo/>
+      <Projetos/>
       <footer className="footer">
         <p>
           Feito por Malu Vicentini
         </p>
-        <div>
 
-        </div>
       </footer>
     </div>
   )
