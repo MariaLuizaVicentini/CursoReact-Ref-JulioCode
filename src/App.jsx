@@ -1,5 +1,5 @@
-import Header from "./Header"
-import Conteudo from "./Conteudo"
+import Conteudo from "./components/Conteudo/Conteudo"
+import Header from "./components/Header/Header"
 import "./App.css"
 
 function App(){
