@@ -28,6 +28,8 @@
 
 # O QUE É VITE?
 
+O Vite é uma ferramenta de build e um servidor HTTP de desenvolvimento para frontend. Ele atua transpilando código (como TSX ou JSX) para JavaScript nativo que o navegador consiga processar
+
 - Utilizado para:
     - Criar o projeto
     - Rodar o projeto 

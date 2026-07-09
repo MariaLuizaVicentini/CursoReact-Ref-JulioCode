@@ -2,27 +2,22 @@ import React from "react"
 import "./Header.css"
 
 function Header(){
+  let links = ["Home", "Sobre mim", "Projetos"]
+
   return(
     <header className="header">
       <h1>@maluvicentinidev</h1>
       <ul className="links">
-        <li>
-          <a href="">
-            Home 
-          </a>
-        </li>
-
-        <li>
-          <a href=""> 
-            Sobre
-          </a>
-          </li>
-
-        <li>
-          <a href=""> 
-            Projetos
-          </a>
-          </li>
+        {
+          links.map((linkAtual) => {
+           return(
+            <li>
+              <a href=""> {linkAtual} </a>
+            </li>
+           )
+              
+          })
+        }
       </ul>
     </header>
   )

@@ -25,6 +25,14 @@ function FotoPerfil( ){
             alt="Essa é a imagem"
         > 
 ```
+
+- Como o principio dos componentes é a reutilizacao dos mesmos, todo componente precisa terminar com esse trecho de codigo para que ele possa ser importado em outro arquivo
+```
+export default Saudacao
+```
+```
+export default FotoPerfil
+```
 ----
 
 # UTILIZANDO COMPONENTES 
