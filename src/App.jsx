@@ -11,6 +11,9 @@ function App(){
         <p>
           Feito por Malu Vicentini
         </p>
+        <div>
+
+        </div>
       </footer>
     </div>
   )

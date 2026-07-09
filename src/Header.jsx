@@ -2,7 +2,11 @@ import React from "react"
 import "./Header.css"
 
 function Header(){
-  let links = ["Home", "Sobre mim", "Projetos"]
+  let links = [
+    {href: "https://youtube.com", nome: "Home"},
+    {href: "https://google.com", nome: "Sobre mim"},
+    {href: "https://facebook.com", nome: "Projetos"}
+  ]
 
   return(
     <header className="header">
@@ -12,7 +16,7 @@ function Header(){
           links.map((linkAtual) => {
            return(
             <li>
-              <a href=""> {linkAtual} </a>
+              <a href={linkAtual.href}> {linkAtual.nome} </a>
             </li>
            )
               
