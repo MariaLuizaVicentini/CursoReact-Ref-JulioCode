@@ -10,7 +10,7 @@ function Header(){
       <ul className="links">
         {
           links.map((linkAtual) => {
-            
+            return <div>{linkAtual}</div>
           })
         }
       </ul>
