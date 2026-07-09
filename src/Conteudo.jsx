@@ -3,9 +3,12 @@ import { useState } from "react";
 
 function Conteudo(){
     const [nome, setNome] = useState("Nome inicial")
+    const [numero, setNumero] = useState(0)
+
 
     function clicouNoBotao(){
         setNome("Novo nome")
+        setNumero(numero + 1)
     }
 
     return(
@@ -16,6 +19,7 @@ function Conteudo(){
                 Clique aqui pra exibir teu nome ze ruela
             </button>
             <p> {nome}</p>
+            <h2> {numero} </h2>
         </main>
     )
 }
