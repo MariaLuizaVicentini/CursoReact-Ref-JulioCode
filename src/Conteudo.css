@@ -1,0 +1,14 @@
+.botao-saiba-mais {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}

@@ -1,25 +1,26 @@
-import React from "react";
+import React, { use } from "react";
 import { useState } from "react";
+import "./Conteudo.css"
 
 function Conteudo(){
-    const [nome, setNome] = useState("Nome inicial")
-    const [numero, setNumero] = useState(0)
-
+    const [artigo, setArtigo] = useState("")
 
     function clicouNoBotao(){
-        setNome("Novo nome")
-        setNumero(numero + 1)
+        setArtigo(
+            "Sou dev full stack com 2 anos de experiencia em software"
+        )
     }
 
     return(
-        <main>
+        <main className="conteudo" >
             <h2>Meu nome é seu_nome</h2>
             <h3>Sou dev full stack</h3>
-            <button onClick={clicouNoBotao}>
-                Clique aqui pra exibir teu nome ze ruela
+            <button className="botao-saiba-mais" onClick={clicouNoBotao}>
+                Saiba mais
             </button>
-            <p> {nome}</p>
-            <h2> {numero} </h2>
+            <article>
+                {artigo}
+            </article>
         </main>
     )
 }
