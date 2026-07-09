@@ -7,9 +7,9 @@ function App(){
     <div className="conteudo-principal">
       <Header/>
       <Conteudo/>
-      <footer>
+      <footer className="footer">
         <p>
-          Feito por seu_nome
+          Feito por Malu Vicentini
         </p>
       </footer>
     </div>

@@ -4,16 +4,23 @@ import "./Header.css"
 function Header(){
   return(
     <header className="header">
-      <h1>Seu_nome </h1>
+      <h1>@maluvicentinidev</h1>
       <ul className="links">
         <li>
-          <a href="https://google.com">
-            Google 
+          <a href="">
+            Home 
           </a>
         </li>
+
         <li>
-          <a href="https://youtube.com"> 
-            Youtube
+          <a href=""> 
+            Sobre
+          </a>
+          </li>
+
+        <li>
+          <a href=""> 
+            Projetos
           </a>
           </li>
       </ul>

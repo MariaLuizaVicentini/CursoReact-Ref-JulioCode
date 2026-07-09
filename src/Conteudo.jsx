@@ -13,14 +13,22 @@ function Conteudo(){
 
     return(
         <main className="conteudo" >
-            <h2>Meu nome é seu_nome</h2>
-            <h3>Sou dev full stack</h3>
-            <button className="botao-saiba-mais" onClick={clicouNoBotao}>
-                Saiba mais
-            </button>
-            <article>
-                {artigo}
-            </article>
+            <section className="conteudo-textual" >
+                <h2 className="texto-introducao">
+                    Meu nome é Malu Vicentini
+                </h2>
+                <h3>
+                    Sou Desenvolvedora Web
+                </h3>
+                <button className="botao-saiba-mais" onClick={clicouNoBotao}>
+                    Saiba mais
+                </button>
+                <article>
+                    {artigo}
+                </article>
+            </section>
+
+            <img className="ilustracao" src="src/assets/programmer.png" alt="" />
         </main>
     )
 }
