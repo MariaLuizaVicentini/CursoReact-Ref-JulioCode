@@ -1,8 +1,11 @@
 import React from "react";
+import { useState } from "react";
 
 function Conteudo(){
+    const [nome, setNome] = useState("Nome inicial")
+
     function clicouNoBotao(){
-        alert("Clicou no botao")
+        setNome("Novo nome")
     }
 
     return(
@@ -12,6 +15,7 @@ function Conteudo(){
             <button onClick={clicouNoBotao}>
                 Clique aqui pra exibir teu nome ze ruela
             </button>
+            <p> {nome}</p>
         </main>
     )
 }
