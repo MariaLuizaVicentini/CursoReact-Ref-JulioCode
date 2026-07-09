@@ -9,8 +9,8 @@ function Header(){
       <h1>@maluvicentinidev</h1>
       <ul className="links">
         {
-          links.map((linkAtual) = {
-            return
+          links.map((linkAtual) => {
+            
           })
         }
       </ul>
