@@ -10,7 +10,7 @@ function Header(){
 
   return(
     <header className="header">
-      <h1>@maluvicentinidev</h1>
+      <h1>Seja Bem Vindo (a)</h1>
       <ul className="links">
         {
           links.map((linkAtual) => {
