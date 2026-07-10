@@ -1,22 +1,23 @@
 import "./Projetos.css"
 
-function Projetos(){
+function Projetos(props){
+    const projetos = props.projetos
+    console.log(projetos)
+
     return (
         <section className="secao-projetos">
             <h2>Projetos</h2>
             <ul className="lista-projetos">
-                <li>
-                    <a href="">Link pro github</a>
-                    <img src="src/assets/facebook.png" alt="" />
-                </li>
-                <li>
-                    <a href="">Link pro github</a>
-                    <img src="src/assets/tesla.png" alt="" />
-                </li>
-                <li>
-                    <a href="">Link pro github</a>
-                    <img src="src/assets/vite.png" alt="" />
-                </li>
+                {
+                    projetos.map((projetoAtual) => {
+                        return(
+                            <li>
+                                <a href={projetoAtual.linkDoGithub}>Link pro github</a>
+                                <img src={projetoAtual.caminhoDaImg} alt="" />
+                            </li>
+                        )
+                    })
+                }
             </ul>
         </section>
     )
