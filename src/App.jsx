@@ -9,7 +9,8 @@ function App(){
     <div className="conteudo-principal">
       <Header/>
       <Conteudo/>
-      <Botao cor="Azul"/>
+      <Botao cor="blue" texto="texto alternativo"/>
+      <Botao cor="red" texto="vodoo e pra jacu"/>
       <Projetos/>
       <footer className="footer">
         <p>
